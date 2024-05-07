@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+    /* background-color: red; */
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: wheat; */
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+.btn-left-part-1:hover{
+    color: red;
+    background-color:greenyellow;
+    border:1px solid rgb(195, 40, 209);
+
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8%;
+    width:45%;
+    height: 100%;
+    /* background-color: rgb(47, 80, 80); */
+
+}
+.left-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-nav a{
+    border: 1px solid greenyellow;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: Product Sans;
+}
+.left-nav a:hover{
+    border: 2px solid #c6ec64;
+    /* padding: 10px 20px; */
+    border-radius: 50px;
+
+}
+.center-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height:100%;
+    /* background-color:pink; */
+}
+
+.right-nav a{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-family: Product Sans;
+}
+.right-nav a:hover{
+    border: 1px solid #c6ec64;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8%;
+    width: 45%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.right-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Product Sans;
+    font-weight: 600%;
+}
+#part-1{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    /* background-color: tomato; */
+}
+.left-part-1{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 33.5%;
+    height: 100%;
+    /* background-color:rgb(222, 193, 193); */
+}
+.center-part-1{
+    width: 33%;
+    height: 100%;
+    /* background-color: teal; */
+}
+#center-part-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    /* background-color: #c6ec64; */
+    overflow: hidden;
+}
+#center-part-1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+
+.right-part-1{
+    display: flex;
+    width: 33.5%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
